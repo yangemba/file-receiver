@@ -1,0 +1,7 @@
+version: "3"
+services:
+  filereciver:
+    image: file_receiver:latest
+    command: python -m main
+    ports:
+      - "8484:8888"
